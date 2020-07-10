@@ -3,7 +3,7 @@
 
 echo " 
 =========================================
-=      The Nmap Scanner                 =
+=      The Nmap & testssl Scanner       =
 =                                       =
 =                   -by Himanshu Dhote  =
 ========================================= "
