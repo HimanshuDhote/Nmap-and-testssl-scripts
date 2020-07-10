@@ -28,7 +28,8 @@ On Ubuntu
 ### Installing  TestSSL:
 
 You can download testssl.sh branch 3.1dev just by cloning this git repository:
-git clone --depth 1 https://github.com/drwetter/testssl.sh.git
+
+`git clone --depth 1 https://github.com/drwetter/testssl.sh.git`
 
 
 Examples of use:
