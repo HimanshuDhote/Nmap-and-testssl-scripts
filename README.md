@@ -3,29 +3,29 @@
 The Script for Nmap and SSL scanning
 
 
-Summary
+### Summary
 
 I have created this script to reduce repetitive work while performing scanning of target host.
 This script will automate the process of Recon which need to be done everytime you need to scan host.
 This script will help you to find open ports,running service and verion along with it testssl bash script is also been used to perform ssl scan on the host.
 
 
-Requirements:
+### Requirements:
 
 To run this script, Nmap and Testssl need to be there in your system.
 
-Install Nmap:
+### Install Nmap:
 
 On CentOS
-yum install nmap
+`yum install nmap`
 
 On Debian
-apt-get install nmap
+`apt-get install nmap`
 
 On Ubuntu
-sudo apt-get install nmap
+`sudo apt-get install nmap`
 
-Installing  TestSSL:
+### Installing  TestSSL:
 
 You can download testssl.sh branch 3.1dev just by cloning this git repository:
 git clone --depth 1 https://github.com/drwetter/testssl.sh.git
@@ -36,6 +36,6 @@ Examples of use:
 ./nmaptester.sh
 
 ### Note:
-   1. run the script as root user
+   1. Run the script as root user
    2. Make sure to change the testssl download location in script to run it smootly.
         `eg: bash /home/kali/Downloads/testssl.sh-3.1dev/testssl.sh in this script, it may be differ in your system.`
