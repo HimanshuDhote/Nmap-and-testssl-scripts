@@ -35,6 +35,7 @@ Examples of use:
 
 ./nmaptester.sh
 
-Note:1. run the script as root user
-     2. Make sure to change the testssl download location in script to run it smootly.
-        eg: bash /home/kali/Downloads/testssl.sh-3.1dev/testssl.sh in this script, it may be differ in your system.      
+### Note:
+   1. run the script as root user
+   2. Make sure to change the testssl download location in script to run it smootly.
+        `eg: bash /home/kali/Downloads/testssl.sh-3.1dev/testssl.sh in this script, it may be differ in your system.`
